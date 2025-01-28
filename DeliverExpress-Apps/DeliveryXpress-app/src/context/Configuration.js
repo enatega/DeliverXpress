@@ -71,14 +71,6 @@ export const ConfigurationProvider = (props) => {
   const configuration =
     loading || error || !data.configuration
       ? {}
-      //    ...initialConfig,
-      //     expoClientID:
-      //       '967541328677-d46sl62t52g5r3o5m0mnl2hpptr242nl.apps.googleusercontent.com',
-      //     androidClientID:
-      //       '967541328677-7264tf7tkdtoufk844rck9mimrve135c.apps.googleusercontent.com',
-      //     iOSClientID:
-      //       '967541328677-nf8h4ou7rhmq9fahs87p057rggo95eah.apps.googleusercontent.com'
-      //   }
       : data.configuration
   return (
     <ConfigurationContext.Provider value={configuration}>
