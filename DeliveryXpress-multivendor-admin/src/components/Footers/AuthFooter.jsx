@@ -23,7 +23,7 @@ export default function AuthFooter(props) {
           href="https://multivendor.enatega.com/"
           target="_blank"
           underline="none">
-          Enatega Multivendor
+          DeliverXpress Multivendor
         </Link>
         <Link
           className={classes.link}

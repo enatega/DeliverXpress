@@ -2,7 +2,7 @@ import React from "react";
 import { useLocation } from "react-router";
 import LoginDesktopHeader from "./DesktopHeader";
 
-const TITLE = "Enatega";
+const TITLE = "DeliverXpress";
 
 const REGISTRATION_PATH = [
   "/login",

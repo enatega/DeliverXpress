@@ -154,7 +154,7 @@ const Help = props => {
                 <FontAwesome
                   name='whatsapp'
                   size={24}
-                  color={currentTheme.black}
+                  color={currentTheme.white}
                 />
                 <TextDefault bold H5 style={styles(currentTheme).whatsAppText}>
                   {t('whatsAppText')}

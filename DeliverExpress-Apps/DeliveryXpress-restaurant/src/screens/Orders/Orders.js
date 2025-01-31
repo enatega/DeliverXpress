@@ -11,6 +11,7 @@ import LottieView from 'lottie-react-native'
 import {useTranslation} from 'react-i18next'
 const { width, height } = Dimensions.get('window')
 import i18next from '../../../i18n'
+
 const Orders = props => {
   const {
     loading,
@@ -34,11 +35,11 @@ const Orders = props => {
       ) : (
         <View style={{ flex: 1,zIndex:10}}>
           <View style={[styles.topContainer,{ zIndex:-10 }]}>
-            <Image
-              source={require('../../assets/orders.png')}
+             <Image
+              source={require('../../assets/heads.gif')}
               PlaceholderContent={<ActivityIndicator />}
-              style={{ width: 250, height: 100 }}
-            />
+              style={{ width: 150, height: 150 }}
+            /> 
           </View>
           <View
             style={[

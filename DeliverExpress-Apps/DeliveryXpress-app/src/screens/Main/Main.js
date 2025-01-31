@@ -268,7 +268,7 @@ function Main(props) {
             <AntDesign
               name='pluscircleo'
               size={scale(20)}
-              color={currentTheme.black}
+              color={currentTheme.white}
             />
             <View style={styles().mL5p} />
             <TextDefault bold>{t('addAddress')}</TextDefault>

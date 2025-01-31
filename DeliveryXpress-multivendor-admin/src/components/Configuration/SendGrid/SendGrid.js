@@ -166,7 +166,7 @@ function SendGridConfiguration(props) {
                 style={{ marginTop: -1 }}
                 id="input-sendGridEmailName"
                 name="input-sendGridEmailName"
-                placeholder="e.g Enatega"
+                placeholder="e.g DeliverXpress"
                 type="text"
                 defaultValue={sendGridEmailName}
                 onBlur={event =>

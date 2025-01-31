@@ -151,7 +151,7 @@ const theme = createTheme({
       whiteShade: "#E5EDEF",
     },
     primary: {
-      main: "#90EA93",
+      main: "#F72C5B",
       light: "#fff",
       lightest: "#cfcfcf",
       dark: "#F4F4F4",
@@ -168,7 +168,7 @@ const theme = createTheme({
     },
     success: {
       main: "#1DB20D",
-      light: "#6FCF97",
+      light: "#FF748B",
       lightest: "#f1f1f1",
       dark: "#F0F0F0",
       darkest: "#E6EBEE",
@@ -199,9 +199,9 @@ const theme = createTheme({
       contrastText: "#fff",
     },
     button: {
-      main: "#3C8F7C",
+      main: "#F72C5B",
       light: "#0070ba",
-      lightest: "#8EE590",
+      lightest: "#FF748B",
       dark: "#EFF4F7",
       darkest: "#FBE7EF",
       contrastText: "#fff",

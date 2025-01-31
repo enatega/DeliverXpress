@@ -23,6 +23,8 @@ import LoginPageIcon from '../assets/img/LoginPageIcon.png'
 import InputAdornment from '@mui/material/InputAdornment'
 import VisibilityIcon from '@mui/icons-material/Visibility'
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff'
+import Lottie from "lottie-react";
+import login from '../assets/svg/login.json'
 
 const LOGIN = gql`
   ${ownerLogin}
@@ -138,8 +140,8 @@ const Login = props => {
           backgroundPosition: 'center',
           display: 'flex',
           alignItems: 'center',
-          justifyContent: 'center'
-          // height: '100%'
+          justifyContent: 'center',
+          height: '100vh'
         }}>
         <Grid
           item
@@ -153,11 +155,13 @@ const Login = props => {
             // backgroundColor: 'green'
             // marginTop: '5%'
           }}>
-          <img
+ 
+          <Lottie animationData={login} loop={true} />
+          {/* <img
             src={LoginPageIcon}
             alt="login img"
             style={{ height: '50%', width: '70%' }}
-          />
+          /> */}
         </Grid>
         <Grid
           item

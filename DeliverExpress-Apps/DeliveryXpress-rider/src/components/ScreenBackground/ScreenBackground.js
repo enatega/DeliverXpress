@@ -3,6 +3,9 @@ import { View, StatusBar, Image } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import styles from './style'
 import RiderLogin from '../../assets/svg/RiderLogin.png'
+import LottieView from 'lottie-react-native'
+// import riderLogin from '../../assets/riderlogin.json'
+// import riders from '../../assets/svg/riders.json'
 
 const ScreenBackground = ({ children }) => {
   return (
@@ -12,10 +15,21 @@ const ScreenBackground = ({ children }) => {
         barStyle="dark-content"
       />
       <View style={styles.container}>
+
+{/* <LottieView
+                    style={{
+                      width: 200,
+                      height: 250
+                    }}
+                    source={require('../../assets/svg/ride')}
+                    autoPlay
+                    loop
+                  /> */}
+
         <Image
           source={RiderLogin}
           style={[styles.image]}
-          height={150}
+          height={250}
           width={250}
         />
         {children}

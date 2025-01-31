@@ -11,7 +11,7 @@ export const customStyles = {
   },
   headRow: {
     style: {
-      backgroundColor: '#6FCF97',
+      backgroundColor: '#F72C5B',
       color: '#FFFFFF',
       fontSize: '16px',
       fontWeight: 'bold',

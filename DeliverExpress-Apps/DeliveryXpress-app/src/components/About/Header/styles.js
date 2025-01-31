@@ -56,7 +56,7 @@ const styles = (props = null) =>
       gap: scale(3)
     },
     backArrow: {
-      color: props != null ? props.black : '#FFF',
+      color: props != null ? props.white: '#FFF',
       fontSize: scale(20),
       backgroundColor: 'white',
       paddingLeft: scale(15),
