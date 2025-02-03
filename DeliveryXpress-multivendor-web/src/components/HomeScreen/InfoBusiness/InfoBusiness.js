@@ -32,7 +32,7 @@ function InfoBusiness() {
           <Card className={classes.infoCard}>
             <CardContent>
               <Typography variant="h5" className={classes.infotTitle}>
-                Enatega for business
+                DeliverXpress for business
               </Typography>
               <Typography className={classes.infoDescription}>
                 Order lunch, fuel for meetings or late-night deliveries to the office. Your favorite restaurants coming

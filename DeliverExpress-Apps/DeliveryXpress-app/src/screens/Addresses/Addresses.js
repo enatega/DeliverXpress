@@ -35,6 +35,7 @@ import CustomWorkIcon from '../../assets/SVG/imageComponents/CustomWorkIcon'
 import CustomOtherIcon from '../../assets/SVG/imageComponents/CustomOtherIcon'
 import CustomApartmentIcon from '../../assets/SVG/imageComponents/CustomApartmentIcon'
 import { useTranslation } from 'react-i18next'
+import color from '../../components/Text/TextDefault/styles'
 
 const DELETE_ADDRESS = gql`
   ${deleteAddress}
@@ -244,7 +245,7 @@ function Addresses() {
             })}
           >
             
-            <TextDefault H5 bold>
+            <TextDefault H5 bold style={{color:"white"}}>
               {t('addAddress')}
             </TextDefault>
           </TouchableOpacity>

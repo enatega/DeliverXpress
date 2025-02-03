@@ -203,7 +203,7 @@ const Item = ({ item, navigation, currentTheme, configuration, onPressReview }) 
               activeOpacity={0.7}
               style={styles(currentTheme).subContainerButton}
               onPress={() => navigation.navigate('Reorder', { item })}>
-              <TextDefault textColor={currentTheme.black} H4 bolder B700 center>
+              <TextDefault textColor={currentTheme.white} H4 bolder B700 center>
                 {' '}
                 {t('reOrder')}
               </TextDefault>

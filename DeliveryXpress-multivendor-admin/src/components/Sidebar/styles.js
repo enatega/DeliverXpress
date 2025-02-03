@@ -15,7 +15,7 @@ const useStyles = makeStyles(theme => ({
   sidebarBox: {
     backgroundColor: theme.palette.common.white,
     padding: '5px 15px 5px 5px',
-    borderRadius: '0px 35px 35px 0px',
+    borderRadius: '0px 0px 35px 0px',
     overflowY: 'auto',
     '&::-webkit-scrollbar': {
       width: 0

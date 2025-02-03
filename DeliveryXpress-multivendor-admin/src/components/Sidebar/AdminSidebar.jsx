@@ -34,11 +34,11 @@ function AdminSidebar(props) {
     // <Box className={classes.sidebarContainer}>
     <Box className={classes.sidebarBox}>
       <Toolbar className={[classes.rowDisplay, classes.logo]}>
-        <Logo fontSize="small" />
+        <Logo fontSize="small" width={"36px"} height={"36px"}/>
         <Typography
           variant="h2"
           className={[classes.headingText, classes.logoText]}>
-          ENATEGA
+          DeliverXpress
         </Typography>
       </Toolbar>
       <Box className={classes.sidebarList}>

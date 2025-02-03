@@ -20,7 +20,7 @@ function Terms() {
       <Grid container className={classes.mainContainer}>
         <Box className={classes.imageContainer}>
           <Typography variant="h4" color="textPrimary" align="center" className={classes.title}>
-            TERMS AND CONDITIONS | ENATEGA
+            TERMS AND CONDITIONS | DeliverXpress
           </Typography>
         </Box>
         <Grid container item xs={12} className={classes.mainContainer}>
@@ -36,7 +36,7 @@ function Terms() {
                 </Typography>
                 <Typography variant="subtitle2" className={classes.MV3}>
                   These Terms of Use (“<b>Terms</b>”) govern your use of the websites and mobile applications provided
-                  by enatega (collectively the “<b>Platforms</b>”). Please read these Terms carefully. By accessing and
+                  by DeliverXpress (collectively the “<b>Platforms</b>”). Please read these Terms carefully. By accessing and
                   using the Platforms, you agree that you have read, understood and accepted the Terms including any
                   additional terms and conditions and any policies referenced herein, available on the Platforms or
                   available by hyperlink. If you do not agree or fall within the Terms, please do not use the Platforms.
@@ -53,7 +53,7 @@ function Terms() {
                   guardian(s), you must stop using/accessing the Platforms immediately.
                 </Typography>
                 <Typography variant="subtitle2">
-                  Enatega reserves the right to change or modify these Terms (including our policies which are
+                  DeliverXpress reserves the right to change or modify these Terms (including our policies which are
                   incorporated into these Terms) at any time. You are strongly recommended to read these Terms
                   regularly. You will be deemed to have agreed to the amended Terms by your continued use of the
                   Platforms following the date on which the amended Terms are posted.
@@ -61,16 +61,16 @@ function Terms() {
               </li>
               <li>
                 <Typography variant="subtitle2" className={classes.boldText}>
-                  Enatega
+                  DeliverXpress
                 </Typography>
                 <ul className={classes.bullet}>
                   <li>
                     <Typography variant="subtitle2">What we do</Typography>
                     <Typography variant="subtitle2" className={classes.MV2}>
-                      Through our Platforms, enatega links you to the vendors (“<b>Vendors</b>”) for you to order a
+                      Through our Platforms, DeliverXpress links you to the vendors (“<b>Vendors</b>”) for you to order a
                       variety of goods including prepared meals, non-prepared food and miscellaneous non-food items
                       (hereinafter collectively referred to as "<b>Goods</b>") to be delivered to you. When you place an
-                      order for Goods from our Vendors (“<b>Order</b>”), enatega acts as an agent on behalf of that
+                      order for Goods from our Vendors (“<b>Order</b>”), DeliverXpress acts as an agent on behalf of that
                       Vendor to facilitate, process and conclude the order and subsequently for either us or the Vendor
                       to deliver your Order to you. Vendors may be owned and operated by third party vendors, our
                       affiliate companies, or us.
@@ -87,30 +87,30 @@ function Terms() {
               </li>
               <li>
                 <Typography variant="subtitle2" className={clsx(classes.boldText, classes.MV3)}>
-                  Use of the Platforms and enatega Account
+                  Use of the Platforms and DeliverXpress Account
                 </Typography>
                 <Typography variant="subtitle2">
-                  You will need to register for a enatega account for you to use the Platform. When you register for a
-                  enatega account we will ask you to provide your personal information including a valid email address,
+                  You will need to register for a DeliverXpress account for you to use the Platform. When you register for a
+                  DeliverXpress account we will ask you to provide your personal information including a valid email address,
                   a mobile phone number and a unique password. To purchase an Order, depending on which payment method
                   you opt for, you may need to provide us with your credit card details. Your unique password should not
                   be shared with anyone and you agree to keep it secret at all times. You are solely responsible for
                   keeping your password safe. Save for cases of fraud or abuse which are not your fault, you accept that
-                  all Orders placed under your enatega account are your sole responsibility.
+                  all Orders placed under your deliverXpress account are your sole responsibility.
                 </Typography>
                 <Typography variant="subtitle2" className={classes.MV3}>
-                  enatega shall not be liable for Orders that encounter delivery issues due to incomplete, incorrect or
+                  deliverXpress shall not be liable for Orders that encounter delivery issues due to incomplete, incorrect or
                   missing information provided by you. You are obliged to provide information that is complete, accurate
                   and truthful for the proper processing of the Order, including your delivery address and contact
                   information.
                 </Typography>
                 <Typography variant="subtitle2">
-                  If you wish to delete your enatega account, please send us an email requesting the same. We may
-                  restrict, suspend or terminate your enatega account and/or use of the Platforms, if we reasonably
+                  If you wish to delete your deliverXpress account, please send us an email requesting the same. We may
+                  restrict, suspend or terminate your deliverXpress account and/or use of the Platforms, if we reasonably
                   believe that:
                 </Typography>
                 <Typography variant="subtitle2" className={classes.MV3}>
-                  someone other than you is using your enatega account; or
+                  someone other than you is using your deliverXpress account; or
                 </Typography>
                 <Typography variant="subtitle2">
                   where you are suspected or discovered to have been involved in any activity or conduct that is in
@@ -129,8 +129,8 @@ function Terms() {
                 </Typography>
                 <Typography variant="subtitle2">
                   The following is a non-exhaustive list of the types of conduct that are illegal or prohibited on the
-                  Platforms. Enatega reserves the right to investigate and take appropriate legal action against anyone
-                  who, in enatega's sole discretion, engages in any of the prohibited activities. Prohibited activities
+                  Platforms. DeliverXpress reserves the right to investigate and take appropriate legal action against anyone
+                  who, in deliverXpress's sole discretion, engages in any of the prohibited activities. Prohibited activities
                   include, but are not limited to the following:
                 </Typography>
                 <ul className={classes.bullet}>
@@ -148,13 +148,13 @@ function Terms() {
                   <li>
                     <Typography variant="subtitle2">
                       posting content that is unlawful, obscene, defamatory, threatening, harassing, abusive,
-                      slanderous, hateful, or embarrassing to any other person or entity as determined by enatega in its
+                      slanderous, hateful, or embarrassing to any other person or entity as determined by deliverXpress in its
                       sole discretion or pursuant to local community standards;
                     </Typography>
                   </li>
                   <li>
                     <Typography variant="subtitle2">
-                      posting content that constitutes cyber-bullying, as determined by enatega in its sole discretion;
+                      posting content that constitutes cyber-bullying, as determined by deliverXpress in its sole discretion;
                     </Typography>
                   </li>
                   <li>
@@ -174,7 +174,7 @@ function Terms() {
                   </li>
                   <li>
                     <Typography variant="subtitle2">
-                      posting anything that may be “spam,” as determined by enatega in its sole discretion;
+                      posting anything that may be “spam,” as determined by deliverXpress in its sole discretion;
                     </Typography>
                   </li>
                   <li>
@@ -199,7 +199,7 @@ function Terms() {
                   <li>
                     <Typography variant="subtitle2">
                       engaging in any other conduct that restricts or inhibits any other person from using or enjoying
-                      the Websites, or which, in the sole discretion of enatega, exposes enatega or any of its
+                      the Websites, or which, in the sole discretion of deliverXpress, exposes deliverXpress or any of its
                       customers, suppliers, or any other parties to any liability or detriment of any type; or
                     </Typography>
                   </li>
@@ -210,7 +210,7 @@ function Terms() {
                   </li>
                   <li>
                     <Typography variant="subtitle2">
-                      enatega reserves the right but is not obligated to do any or all of the following:
+                      deliverXpress reserves the right but is not obligated to do any or all of the following:
                     </Typography>
                   </li>
                   <li>
@@ -227,7 +227,7 @@ function Terms() {
                   </li>
                   <li>
                     <Typography variant="subtitle2">
-                      suspend or terminate a user’s access to the Platforms or their enatega Account upon any breach of
+                      suspend or terminate a user’s access to the Platforms or their deliverXpress Account upon any breach of
                       these Terms;
                     </Typography>
                   </li>
@@ -251,13 +251,13 @@ function Terms() {
                 <Typography variant="subtitle2" className={classes.MV3}>
                   All trademarks, logos, images, and service marks, including these Terms as displayed on the Platforms
                   or in our marketing material, whether registered or unregistered, are the intellectual property of
-                  enatega and/or third parties who have authorised us with the use (collectively the “<b>Trademarks</b>
+                  deliverXpress and/or third parties who have authorised us with the use (collectively the “<b>Trademarks</b>
                   ”). You may not use, copy, reproduce, republish, upload, post, transmit, distribute, or modify these
-                  Trademarks in any way without our prior express written consent. The use of enatega's trademarks on
-                  any other website not approved by us is strictly prohibited. Enatega will aggressively enforce its
-                  intellectual property rights to the fullest extent of the law, including criminal prosecution. Enatega
+                  Trademarks in any way without our prior express written consent. The use of deliverXpress's trademarks on
+                  any other website not approved by us is strictly prohibited. DeliverXpress will aggressively enforce its
+                  intellectual property rights to the fullest extent of the law, including criminal prosecution. DeliverXpress
                   neither warrants nor represents that your use of materials displayed on the Platforms will not
-                  infringe rights of third parties not owned by or affiliated with enatega. Use of any materials on the
+                  infringe rights of third parties not owned by or affiliated with deliverXpress. Use of any materials on the
                   Platforms is at your own risk.
                 </Typography>
               </li>
@@ -277,7 +277,7 @@ function Terms() {
                       Alcohol / Alcoholic Products (“<b>Alcohol</b>”){" "}
                     </Typography>
                     <Typography variant="subtitle2" className={classes.MV2}>
-                      To purchase Alcohol, you must be of the statutory legal age. Enatega, the Vendor and their
+                      To purchase Alcohol, you must be of the statutory legal age. DeliverXpress, the Vendor and their
                       delivery riders, as the case may be, reserve the right in their sole discretion:
                     </Typography>
                   </li>
@@ -310,7 +310,7 @@ function Terms() {
                   </li>
                   <li>
                     <Typography variant="subtitle2">
-                      To purchase Tobacco, you must be of the statutory legal age. Enatega, the Vendor and their
+                      To purchase Tobacco, you must be of the statutory legal age. DeliverXpress, the Vendor and their
                       delivery riders, as the case may be, reserve the right in their sole discretion:
                     </Typography>
                     <ul className={classes.circle}>
@@ -345,7 +345,7 @@ function Terms() {
                 <ul className={classes.bullet}>
                   <li>
                     <Typography variant="subtitle2">
-                      When you place an Order with enatega, enatega will confirm your order by sending you a
+                      When you place an Order with deliverXpress, deliverXpress will confirm your order by sending you a
                       confirmation email containing the Order receipt. Where applicable, Orders will include delivery
                       fees and any applicable tax (e.g. goods and services tax, value-added tax, etc.).
                     </Typography>
@@ -359,18 +359,18 @@ function Terms() {
                   </li>
                   <li>
                     <Typography variant="subtitle2">
-                      Special Instructions – enatega and the Vendor (as the case may be) reasonably endeavour to comply
+                      Special Instructions – deliverXpress and the Vendor (as the case may be) reasonably endeavour to comply
                       with your special instructions for an Order. However in some cases where this is not feasible,
-                      possible or commercially reasonable, enatega and/or the Vendor reserve the right to proceed to
-                      prepare the Order in accordance with standard operating procedures. Neither enatega nor the Vendor
+                      possible or commercially reasonable, deliverXpress and/or the Vendor reserve the right to proceed to
+                      prepare the Order in accordance with standard operating procedures. Neither deliverXpress nor the Vendor
                       shall be responsible to replace or refund an Order which does not conform to special instructions
                       provided by you.
                     </Typography>
                   </li>
                   <li>
                     <Typography variant="subtitle2">
-                      Allergens – enatega is not obligated to provide ingredient information or allergen information on
-                      the Platforms. Further, enatega does not guarantee that the Goods sold by Vendors are free of
+                      Allergens – deliverXpress is not obligated to provide ingredient information or allergen information on
+                      the Platforms. Further, deliverXpress does not guarantee that the Goods sold by Vendors are free of
                       allergens. If you have allergies, allergic reactions or dietary restrictions and requirements,
                       please contact the Vendor before placing an Order on our Platforms.
                     </Typography>
@@ -451,9 +451,9 @@ function Terms() {
                   </li>
                   <li>
                     <Typography variant="subtitle2">
-                      Enatega reserves the right to cancel any Order and/or suspend, deactivate or terminate your
-                      enatega account in its sole discretion if it reasonably suspects or detects fraudulent behavior or
-                      activity associated with your enatega account and/or with your Order.{" "}
+                      DeliverXpress reserves the right to cancel any Order and/or suspend, deactivate or terminate your
+                      deliverXpress account in its sole discretion if it reasonably suspects or detects fraudulent behavior or
+                      activity associated with your deliverXpress account and/or with your Order.{" "}
                     </Typography>
                   </li>
                 </ul>
@@ -522,7 +522,7 @@ function Terms() {
                   </li>
                   <li>
                     <Typography variant="subtitle2">
-                      If you have existing credit in your enatega account or valid promotional or discount vouchers, you
+                      If you have existing credit in your deliverXpress account or valid promotional or discount vouchers, you
                       can use this pay for part or all of your Order as the case may be.
                     </Typography>
                   </li>
@@ -535,17 +535,17 @@ function Terms() {
                   <li>
                     <Typography variant="subtitle2">Payment Methods</Typography>
                     <Typography variant="subtitle2" className={classes.MV2}>
-                      Enatega reserves the right to offer additional payment methods and/or remove existing payment
+                      DeliverXpress reserves the right to offer additional payment methods and/or remove existing payment
                       methods at anytime in its sole discretion. If you choose to pay using an online payment method,
                       the payment shall be processed by our third party payment service provider(s). With your consent,
                       your credit card / payment information will be stored with our third party payment service
-                      provider(s) for future orders. Enatega does not store your credit card or payment information.
+                      provider(s) for future orders. DeliverXpress does not store your credit card or payment information.
                     </Typography>
                   </li>
                   <li>
                     <Typography variant="subtitle2">
                       You must ensure that you have sufficient funds on your credit and debit card to fulfil payment of
-                      an Order. Insofar as required, enatega takes responsibility for payments made on our Platforms
+                      an Order. Insofar as required, deliverXpress takes responsibility for payments made on our Platforms
                       including refunds, chargebacks, cancellations and dispute resolution, provided if reasonable and
                       justifiable and in accordance with these Terms.
                     </Typography>
@@ -571,7 +571,7 @@ function Terms() {
                   </li>
                   <li>
                     <Typography variant="subtitle2">
-                      Enatega shall deliver your Order to the delivery address provided by You. You may choose for your
+                      DeliverXpress shall deliver your Order to the delivery address provided by You. You may choose for your
                       Order to be delivered “ASAP” or scheduled for a specific time. An estimated delivery time will be
                       provided to you in your email confirmation but delivery times shall vary depending on factors that
                       are not controlled by us (e.g. order quantity, distance, time of day (peak periods), weather
@@ -581,7 +581,7 @@ function Terms() {
                       of an Order, you should ensure that either you or someone is at the delivery location to receive
                       the Order once an Order is placed. If your Order contains Alcohol or Tobacco (if applicable) and
                       you or the recipient is or appears to be below the legal age, or fails to provide a valid proof of
-                      ID, enatega reserves the right not to deliver your Order to you.
+                      ID, deliverXpress reserves the right not to deliver your Order to you.
                     </Typography>
                   </li>
                   <li>
@@ -627,7 +627,7 @@ function Terms() {
                         <Typography variant="subtitle2">No-show Cancellations</Typography>
                         <Typography variant="subtitle2" className={classes.MV2}>
                           If you remain uncontactable or fail to receive the Order within ten (10) minutes from the time
-                          the Order arrives at your delivery address, enatega reserves the right to cancel the Order
+                          the Order arrives at your delivery address, deliverXpress reserves the right to cancel the Order
                           without refund or remedy to you.
                         </Typography>
                       </li>
@@ -638,7 +638,7 @@ function Terms() {
                     <Typography variant="subtitle2" className={classes.MV2}>
                       Upon receipt of your Order, if you discover that there are issues with your Order (e.g. wrong
                       order, defective order, or missing items) please contact customer support via one of the methods
-                      indicated in Clause 1.3 above immediately. In some cases, enatega may request for photographic
+                      indicated in Clause 1.3 above immediately. In some cases, deliverXpress may request for photographic
                       proof and/or additional information to properly investigate the issue with your Order. If we
                       determine that the Order and/or Goods you received are not of satisfactory condition or quality,
                       we will compensate you for your Order or parts of your Order.
@@ -677,7 +677,7 @@ function Terms() {
                       In some cases, our Vendors will deliver the Order to you (“Vendor Delivery”). While we will use
                       reasonable efforts to provide prior notice to you on Vendor Delivery, this may not always be
                       possible. Where Vendor Delivery applies, we may ask you to contact the Vendor directly in the
-                      event of issues or delays in your delivery. Enatega shall not be responsible in any way for Orders
+                      event of issues or delays in your delivery. DeliverXpress shall not be responsible in any way for Orders
                       or Goods that are delivered by Vendors.{" "}
                     </Typography>
                   </li>
@@ -690,7 +690,7 @@ function Terms() {
                 <ul className={classes.bullet}>
                   <li>
                     <Typography variant="subtitle2">
-                      From time to time, enatega may run marketing and promotional campaigns which offer voucher codes,
+                      From time to time, deliverXpress may run marketing and promotional campaigns which offer voucher codes,
                       discounts, and other promotional offers to be used on the Platforms (“<b>Vouchers</b>”). Vouchers
                       are subject to validity periods, redemption periods, and in certain cases, may only be used once.
                     </Typography>
@@ -705,7 +705,7 @@ function Terms() {
                   </li>
                   <li>
                     <Typography variant="subtitle2">
-                      Enatega reserves the right to void, discontinue or reject the use of any Voucher without prior
+                      DeliverXpress reserves the right to void, discontinue or reject the use of any Voucher without prior
                       notice Individual restaurants terms & conditions apply
                     </Typography>
                   </li>
@@ -727,7 +727,7 @@ function Terms() {
                       You acknowledge and agree that the content on the Platforms are provided on an “as is” and “as
                       available” basis, and that your use of or reliance upon the Platforms and any content, goods,
                       products or services accessed or obtained thereby is at your sole risk and discretion. While
-                      enatega makes reasonable efforts to ensure the provision of the Platforms and the services we
+                      deliverXpress makes reasonable efforts to ensure the provision of the Platforms and the services we
                       offer, are available at all times, we do not warrant or represent that the Platforms shall be
                       provided in a manner which is secure, timely, uninterrupted, error-free, free of technical
                       difficulties, defects or viruses. Please expect temporary interruptions of the Platform due to
@@ -736,30 +736,30 @@ function Terms() {
                     </Typography>
                     <Typography variant="subtitle2">Limitation of Liability</Typography>
                     <Typography variant="subtitle2" className={classes.MV2}>
-                      To the extent permitted by law, enatega (which shall include its employees, directors, agents,
+                      To the extent permitted by law, deliverXpress (which shall include its employees, directors, agents,
                       representatives, affiliates and parent company) exclude all liability (whether arising in
                       contract, in negligence or otherwise) for loss or damage which you or any third party may incur in
                       connection with our Platforms, our services, and any website linked to our Platforms and any
                       content or material posted on it. Your exclusive remedy with respect to your use of the Platforms
-                      is to discontinue your use of the Platforms. The enatega entities, their agents, representatives,
+                      is to discontinue your use of the Platforms. The deliverXpress entities, their agents, representatives,
                       and service providers shall not be liable for any indirect, special, incidental, consequential, or
                       exemplary damages arising from your use of the Platforms or for any other claim related in any way
                       to your use of the Platforms. These exclusions for indirect, special, consequential, and exemplary
                       damages include, without limitation, damages for lost profits, lost data, loss of goodwill, work
                       stoppage, work stoppage, computer failure, or malfunction, or any other commercial damages or
-                      losses, even if the enatega entities, their agents, representatives, and service providers have
+                      losses, even if the deliverXpress entities, their agents, representatives, and service providers have
                       been advised of the possibility thereof and regardless of the legal or equitable theory upon which
                       the claim is based. Because some states or jurisdictions do not allow the exclusion or the
                       limitation of liability for consequential or incidental damages, in such states or jurisdictions,
-                      enatega, the enatega entities, its agents, representatives and service providers' liability shall
+                      deliverXpress, the deliverXpress entities, its agents, representatives and service providers' liability shall
                       be limited to the extent permitted by law.
                     </Typography>
                   </li>
                   <li>
                     <Typography variant="subtitle2">Vendor’s representations</Typography>
                     <Typography variant="subtitle2" className={classes.MV2}>
-                      Enatega shall neither be liable for actions or omissions of the Vendor nor you in regard to
-                      provision of the Goods and where Vendor Delivery applies to your Order. Enatega does not assume
+                      DeliverXpress shall neither be liable for actions or omissions of the Vendor nor you in regard to
+                      provision of the Goods and where Vendor Delivery applies to your Order. DeliverXpress does not assume
                       any liability for the quantity, quality, condition or other representations of the Goods and/or
                       services provided by Vendors or guarantee the accuracy or completeness of the information
                       (including menu information, photos and images of the Goods) displayed on the Vendor’s
@@ -775,7 +775,7 @@ function Terms() {
                 </Typography>
                 <Typography variant="subtitle2" className={classes.MV3}>
                   Vendors are responsible for the preparation, condition and quality of Goods. In cases of Vendor
-                  Delivery, Vendors are responsible for delivery of the Goods and/or Orders. Enatega shall not be liable
+                  Delivery, Vendors are responsible for delivery of the Goods and/or Orders. DeliverXpress shall not be liable
                   for any loss or damage arising from your contractual relationship with the Vendor.
                 </Typography>
               </li>
@@ -784,7 +784,7 @@ function Terms() {
                   Personal Data (Personal Information) Protection
                 </Typography>
                 <Typography variant="subtitle2" className={classes.MV3}>
-                  You agree and consent to enatega and any of its affiliate companies collecting, using, processing and
+                  You agree and consent to deliverXpress and any of its affiliate companies collecting, using, processing and
                   disclosing your Personal Data in accordance with these Terms and as further described in our Privacy
                   Policy. Our Privacy Policy is available via the links on our Platforms, and shall form a part of these
                   Terms.
@@ -795,7 +795,7 @@ function Terms() {
                   Indemnity
                 </Typography>
                 <Typography variant="subtitle2" className={classes.MV3}>
-                  You agree to indemnify, defend, hold harmless enatega, its directors, officers, employees,
+                  You agree to indemnify, defend, hold harmless deliverXpress, its directors, officers, employees,
                   representatives, agents, and affiliates, from any and all third party claims, liability, damages
                   and/or costs (including but not limited to, legal fees) arising from your use of the Platforms or your
                   breach of these Terms.
@@ -807,8 +807,8 @@ function Terms() {
                 </Typography>
                 <Typography variant="subtitle2" className={classes.MV3}>
                   The Platforms may contain links to other third party websites and by clicking on these links, you
-                  agree to do so at your own risk. Enatega does not control or endorse these third party websites or
-                  links and shall not be responsible for the content of these linked pages. Enatega accepts no liability
+                  agree to do so at your own risk. DeliverXpress does not control or endorse these third party websites or
+                  links and shall not be responsible for the content of these linked pages. DeliverXpress accepts no liability
                   or responsibility for any loss or damage which may be suffered by you in relation to your access and
                   use of these third party links and websites.
                 </Typography>
@@ -818,10 +818,10 @@ function Terms() {
                   Termination
                 </Typography>
                 <Typography variant="subtitle2" className={classes.MV3}>
-                  Enatega has the right to terminate, suspend or delete your account and access to the Platforms,
+                  DeliverXpress has the right to terminate, suspend or delete your account and access to the Platforms,
                   including any delivery service we provide to you in respect of an Order, for any reason, including,
-                  without limitation, if enatega, in its sole discretion, considers your use to be unacceptable, or in
-                  the event of any breach by you of the Terms. Enatega may, but shall be under no obligation to, provide
+                  without limitation, if deliverXpress, in its sole discretion, considers your use to be unacceptable, or in
+                  the event of any breach by you of the Terms. DeliverXpress may, but shall be under no obligation to, provide
                   you a warning prior to termination of your use of the Websites.
                 </Typography>
               </li>
@@ -830,7 +830,7 @@ function Terms() {
                   Amendments
                 </Typography>
                 <Typography variant="subtitle2" className={classes.MV3}>
-                  Enatega may amend these Terms at any time in its sole discretion. The amended Terms shall be effective
+                  DeliverXpress may amend these Terms at any time in its sole discretion. The amended Terms shall be effective
                   immediately upon posting and you agree to the new Terms by continued use of the Platforms. It is your
                   responsibility to check the Terms regularly. If you do not agree with the amended Terms, whether in
                   whole or in part, you must stop using the Platforms immediately.

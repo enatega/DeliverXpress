@@ -66,6 +66,7 @@ const styles = (props = null) =>
     whatsAppText: {
       textAlign: 'center',
       paddingLeft: scale(5),
+      color:props.white
     },
     contentContainer: {
       flexDirection: 'row',

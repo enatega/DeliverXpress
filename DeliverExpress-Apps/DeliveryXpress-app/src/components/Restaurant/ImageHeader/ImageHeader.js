@@ -105,9 +105,9 @@ function ImageTextCenterHeader(props, ref) {
     restaurantTax: props.tax,
     restaurantMinOrder: props.minimumOrder,
     deliveryTime: props.restaurant ? props.restaurant.deliveryTime : '...',
-    average: props.restaurant ? props.restaurant.reviewData.ratings : '...',
-    total: props.restaurant ? props.restaurant.reviewData.total : '...',
-    reviews: props.restaurant ? props.restaurant.reviewData.reviews : '...',
+    average: props.restaurant ? props.restaurant?.reviewData?.ratings : '...',
+    total: props.restaurant ? props.restaurant?.reviewData?.total : '...',
+    reviews: props.restaurant ? props.restaurant?.reviewData?.reviews : '...',
     isAvailable: props.restaurant ? props.restaurant.isAvailable : true,
     openingTimes: props.restaurant ? props.restaurant.openingTimes : [],
     isOpen: () => {

@@ -162,7 +162,7 @@ function RightButton(props) {
         <SimpleLineIcons
           name='handbag'
           size={24}
-          color={currentTheme.black}
+          color={currentTheme.white}
         />
         <View
           style={

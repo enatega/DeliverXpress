@@ -1,4 +1,4 @@
-import { View, FlatList, Dimensions } from 'react-native'
+import { View, FlatList, Dimensions,Image } from 'react-native'
 import React, { useContext, useState, useEffect } from 'react'
 import ScreenBackground from '../../components/ScreenBackground/ScreenBackground'
 import styles from './style'
@@ -16,6 +16,7 @@ import colors from '../../utilities/colors'
 import { NetworkStatus } from '@apollo/client'
 import i18next from '../../../i18next'
 import { useTranslation } from 'react-i18next'
+import noOrders from '../../assets/svg/noOrders.png'
 
 const { height, width } = Dimensions.get('window')
 const NewOrders = ({ navigation }) => {
@@ -83,15 +84,11 @@ const NewOrders = ({ navigation }) => {
                     justifyContent: 'center',
                     alignItems: 'center'
                   }}>
-                  <LottieView
-                    style={{
-                      width: width - 100,
-                      height: 250
-                    }}
-                    source={require('../../assets/loader.json')}
-                    autoPlay
-                    loop
+                  <Image
+                  source={noOrders}
                   />
+
+                  
 
                   {noNewOrders ? (
                     <TextDefault

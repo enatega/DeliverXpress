@@ -55,6 +55,7 @@ import MapSection from '../MapSection/index'
 import { useTranslation } from 'react-i18next'
 
 import { escapeRegExp } from '../../utils/regex'
+import color from '../../components/Text/TextDefault/styles'
 
 const RESTAURANTS = gql`
   ${restaurantList}
@@ -256,10 +257,10 @@ function Main(props) {
             <AntDesign
               name="pluscircleo"
               size={scale(12)}
-              color={currentTheme.black}
+              color={currentTheme.white}
             />
             <View style={styles().mL5p} />
-            <TextDefault bold>{t('addAddress')}</TextDefault>
+            <TextDefault bold style={{color:currentTheme}}>{t('addAddress')}</TextDefault>
           </View>
         </TouchableOpacity>
       </View>

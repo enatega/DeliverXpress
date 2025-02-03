@@ -31,7 +31,7 @@ export default function TabBars(props) {
             status="primary"
             value={newAmount}
             containerStyle={{ position: 'absolute', top: 0, left: 0 }}
-            badgeStyle={{ backgroundColor: 'black' }}
+            badgeStyle={{ backgroundColor: colors.green }}
             textStyle={{ color: colors.white }}
           />
         ) : null}
@@ -56,7 +56,7 @@ export default function TabBars(props) {
             status="primary"
             value={processingAmount}
             containerStyle={{ position: 'absolute', top: 0, left: 2 }}
-            badgeStyle={{ backgroundColor: colors.darkgreen }}
+            badgeStyle={{ backgroundColor: colors.green }}
             textStyle={{ color: colors.white }}
           />
         ) : null}

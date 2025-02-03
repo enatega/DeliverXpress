@@ -17,8 +17,8 @@ export const de = {
     'Das Alter mindert nicht die extreme Enttäuschung, wenn ein Kugel Eis vom Hörnchen fällt.',
   getStarted: "Los geht's!",
   welcome:
-    'Willkommen bei Enatega, manchmal braucht man nur Liebe. Aber ab und zu schadet etwas Essen nicht.',
-  welcomeScreen: 'Willkommen bei Enatega',
+    'Willkommen bei DeliverXpress, manchmal braucht man nur Liebe. Aber ab und zu schadet etwas Essen nicht.',
+  welcomeScreen: 'Willkommen bei DeliverXpress',
   loginBtn: 'Anmelden',
   registerBtn: 'Registrieren',
   name: 'Name',
@@ -182,7 +182,7 @@ export const de = {
   passErr2:
     'Ungültiges Passwort. Das Passwort muss mindestens 8 Zeichen lang sein und 1 Großbuchstaben, 1 Kleinbuchstaben und 1 Zahl enthalten.',
   letsGetStarted: 'Lass uns anfangen!',
-  createAccount: 'Erstellen Sie Ihr Enatega-Konto',
+  createAccount: 'Erstellen Sie Ihr DeliverXpress-Konto',
   firstnameErr1: 'Vorname ist erforderlich!',
   firstnameErr2: 'Ungültiger Vorname!',
   lastnameErr1: 'Nachname ist erforderlich!',
@@ -289,7 +289,7 @@ export const de = {
   locationPermissionMessage:
     'Tippen Sie auf diese Nachricht, um die Einstellungen zu öffnen und der App die Verwendung des Standorts zu erlauben.',
   enategaUseYourLocationMessage:
-    'Enatega verwendet Ihren Standort, um die Restaurants in Ihrer Nähe anzuzeigen!',
+    'DeliverXpress verwendet Ihren Standort, um die Restaurants in Ihrer Nähe anzuzeigen!',
   selectAnotherLocation: 'Wählen Sie einen anderen Ort aus',
   setLocation: 'Standort festlegen',
   cartIsEmpty: 'Der Warenkorb ist leer',

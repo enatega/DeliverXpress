@@ -125,7 +125,7 @@ const Vendors = props => {
           sx={{
             color: 'black',
             fontWeight: 'bold',
-            backgroundColor: theme.palette.warning.dark,
+            backgroundColor: theme.palette.primary.main,
             padding: 0,
             height: '15px',
             fontSize: '7px',

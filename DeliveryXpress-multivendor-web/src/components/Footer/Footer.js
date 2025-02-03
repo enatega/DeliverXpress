@@ -54,7 +54,7 @@ function Footer() {
       >
         <Box className={classes.left}>
           <Typography
-            variant="h4"
+            variant="h5"
             style={{
               fontWeight: 900,
               color: theme.palette.success.light,
@@ -62,7 +62,7 @@ function Footer() {
             }}
             align="center"
           >
-            Enatega
+            DeliverXpress
           </Typography>
           <Typography
             variant="body2"

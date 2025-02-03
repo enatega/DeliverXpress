@@ -9,8 +9,10 @@ import { TabBars } from '../../components/TabBars'
 import { HomeOrderDetails } from '../../components/HomeOrderDetails'
 import LottieView from 'lottie-react-native'
 import {useTranslation} from 'react-i18next'
+import noOrders from '../../assets/noOrders.png'
 const { width, height } = Dimensions.get('window')
 import i18next from '../../../i18n'
+
 const Orders = props => {
   const {
     loading,
@@ -34,11 +36,11 @@ const Orders = props => {
       ) : (
         <View style={{ flex: 1,zIndex:10}}>
           <View style={[styles.topContainer,{ zIndex:-10 }]}>
-            <Image
-              source={require('../../assets/orders.png')}
+             <Image
+              source={require('../../assets/heads.gif')}
               PlaceholderContent={<ActivityIndicator />}
-              style={{ width: 250, height: 100 }}
-            />
+              style={{ width: 150, height: 150 }}
+            /> 
           </View>
           <View
             style={[
@@ -97,15 +99,11 @@ const Orders = props => {
                           <TextDefault H2 bold>
                             {t('unReadOrders')}
                           </TextDefault>
-                          <LottieView
-                            style={{
-                              width: width - 100,
-                              height: 250
-                            }}
-                            source={require('../../assets/loader.json')}
-                            autoPlay
-                            loop
-                          />
+                          <Image
+              source={noOrders}
+              style={{ width: 280, height: 380,marginTop:10 }}
+            /> 
+                          
                         </View>
                       )}
                   {active === 1 && processingOrders > 0

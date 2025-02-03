@@ -1,5 +1,5 @@
 {
-  "name": "enatega",
+  "name": "DeliverXpress",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,6 +25,7 @@
     "graphql": "^15.4.0",
     "i18next": "^23.7.6",
     "lodash": "^4.17.21",
+    "lottie-react": "^2.4.1",
     "moment": "^2.29.1",
     "react": "^17.0.2",
     "react-calendar": "^3.7.0",

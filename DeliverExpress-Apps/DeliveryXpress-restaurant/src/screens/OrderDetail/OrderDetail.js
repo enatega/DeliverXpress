@@ -13,6 +13,7 @@ import { useCancelOrder, useOrderPickedUp, useOrderRing } from '../../ui/hooks'
 import CountDown from 'react-native-countdown-component'
 import { useRestaurantContext } from '../../ui/context/restaurant'
 import { useTranslation } from 'react-i18next'
+import LottieView from 'lottie-react-native';
 
 export default function OrderDetail({ navigation, route }) {
   const { t } = useTranslation()
@@ -102,6 +103,13 @@ export default function OrderDetail({ navigation, route }) {
           <View style={styles.barContainer}>
             <View style={styles.roundedBar}>
               <View style={styles.iconContainer}>
+
+              {/* <LottieView 
+        source={require("../../assets/header.json")} 
+        autoPlay 
+        loop 
+        style={{ width: 200, height: 200 }} 
+      /> */}
                 <Image
                   source={imagePath}
                   PlaceholderContent={<ActivityIndicator />}

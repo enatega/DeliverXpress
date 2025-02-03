@@ -107,7 +107,8 @@ const theme = createTheme({
       fontSize: '0.875rem',
       lineHeight: 1.75,
       letterSpacing: '0.02857em',
-      textTransform: 'uppercase'
+      textTransform: 'uppercase',
+      color:"white"
     },
     caption: {
       fontWeight: 400,
@@ -143,9 +144,9 @@ const theme = createTheme({
       white: '#fff'
     },
     primary: {
-      main: '#6FCF97',
-      main2: '#90EA93',
-      main3: '#3C8F7C',
+      main: '#F72C5B',
+      main2: '#F72C5B',
+      main3: '#F72C5B',
       light: '#fff',
       dark: '#000',
       contrastText: '#fff'
@@ -153,7 +154,7 @@ const theme = createTheme({
     secondary: {
       main: '#FAFAFA',
       light: '#333333',
-      lightest: '#3C8F7C',
+      lightest: '##6F609F',
       dark: '#949393',
       darkest: '#3EC6DD',
       contrastText: '#fff'
