@@ -15,17 +15,6 @@ const ScreenBackground = ({ children }) => {
         barStyle="dark-content"
       />
       <View style={styles.container}>
-
-{/* <LottieView
-                    style={{
-                      width: 200,
-                      height: 250
-                    }}
-                    source={require('../../assets/svg/ride')}
-                    autoPlay
-                    loop
-                  /> */}
-
         <Image
           source={RiderLogin}
           style={[styles.image]}
