@@ -1,28 +1,37 @@
 // Import the functions you need from the SDKs you need
-import * as firebase from "firebase/app";
-import { getMessaging, isSupported } from "firebase/messaging";
+import * as firebase from 'firebase/app'
+import { getMessaging, isSupported } from 'firebase/messaging'
+
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-const firebaseConfig = {
-  apiKey: "AIzaSyDx_iSQ9LroTF7NMm20aRvw2wJqhwSnJ3U",
-  authDomain: "enatega-multivender-web.firebaseapp.com",
-  projectId: "enatega-multivender-web",
-  storageBucket: "enatega-multivender-web.appspot.com",
-  messagingSenderId: "438532750182",
-  appId: "1:438532750182:web:516b850eff4e0349f0a6a7",
-  measurementId: "G-KLBJSEHRYQ",
-};
 
-export const initialize = () => {
+export const initialize = (
+  FIREBASE_KEY,
+  AUTH_DOMAIN,
+  PROJECT_ID,
+  STORAGE_BUCKET,
+  MSG_SENDER_ID,
+  APP_ID,
+  MEASUREMENT_ID
+) => {
+  const firebaseConfig = {
+    apiKey: "AIzaSyDs4RDQZBSppvzTsGeRtbu8pz1iYzeo2yY",
+    authDomain: "grasshopper-1bd20.firebaseapp.com",
+    projectId: "grasshopper-1bd20",
+    storageBucket: "grasshopper-1bd20.firebasestorage.app",
+    messagingSenderId: "10686462916",
+    appId: "1:10686462916:web:2904854444fc42964f4291",
+    measurementId: "G-0X2H607NW7"
+  }
+
   // Initialize Firebase
-  const app = firebase.initializeApp(firebaseConfig);
-  const messaging = getMessaging(app);
-  return messaging;
-};
-
-export const isFirebaseSupported = async () => {
-  return await isSupported();
-};
+  const app = firebase.initializeApp(firebaseConfig)
+  const messaging = getMessaging(app)
+  return messaging
+}
+export const isFirebaseSupported = async() => {
+  return await isSupported()
+}

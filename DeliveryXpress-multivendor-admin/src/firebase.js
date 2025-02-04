@@ -18,13 +18,13 @@ export const initialize = (
   MEASUREMENT_ID
 ) => {
   const firebaseConfig = {
-    apiKey: 'AIzaSyCHrV6bF7YPbDjmU5bSd7umSuJen71uUgI',
-    authDomain: 'enatega-multivendor.firebaseapp.com',
-    projectId: 'enatega-multivendor',
-    storageBucket: 'enatega-multivendor.appspot.com',
-    messagingSenderId: '650001300965',
-    appId: '1:650001300965:web:68c10de22ea273b76bc30c',
-    measurementId: 'G-C229R9TNPS'
+    apiKey: "AIzaSyDs4RDQZBSppvzTsGeRtbu8pz1iYzeo2yY",
+    authDomain: "grasshopper-1bd20.firebaseapp.com",
+    projectId: "grasshopper-1bd20",
+    storageBucket: "grasshopper-1bd20.firebasestorage.app",
+    messagingSenderId: "10686462916",
+    appId: "1:10686462916:web:2904854444fc42964f4291",
+    measurementId: "G-0X2H607NW7"
   }
 
   // Initialize Firebase

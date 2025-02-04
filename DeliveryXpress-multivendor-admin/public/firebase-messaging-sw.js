@@ -43,4 +43,3 @@ messaging.onBackgroundMessage(function (payload) {
     }
     
  });
- 
