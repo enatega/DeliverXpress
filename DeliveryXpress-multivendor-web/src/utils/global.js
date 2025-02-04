@@ -1,1 +1,1 @@
-export const SERVER_URL = "https://enatega-multivendor.up.railway.app/";
+export const SERVER_URL = "https://deliverxpress-api.up.railway.app/";

@@ -1,15 +1,16 @@
 {
   "expo": {
-    "name": "Enatega Multivendor Rider",
-    "description": "Enatega is a starter kit food ordering app built in React Native using Expo for IOS and Android. It's made keeping good aesthetics in mind as well keeping the best coding practices in mind. Its fully customisable to easily help you in your next food delivery project. https://market.nativebase.io/view/react-native-food-delivery-backend-app",
-    "version": "1.1.24",
-    "slug": "food-delivery-rider-multivendor",
+    "name": "DeliverXpress Rider",
+    "description": "DeliverXpress is a starter kit food ordering app built in React Native using Expo for IOS and Android. It's made keeping good aesthetics in mind as well keeping the best coding practices in mind. Its fully customisable to easily help you in your next food delivery project. https://market.nativebase.io/view/react-native-food-delivery-backend-app",
+    "version": "1.1",
+    "slug": "cannabrands-driver",
+    "owner": "cannabrands-project",
     "privacy": "public",
     "plugins": [
       [
         "expo-updates",
         {
-          "username": "ninjas_code"
+          "username": "cannabrands-project"
         }
       ],
       "expo-font",
@@ -35,9 +36,9 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.enatega.multirider",
+      "bundleIdentifier": "com.cannabrands.multirider",
       "config": {
-        "googleMapsApiKey": "AIzaSyCzNP5qQql2a5y8lOoO-1yj1lj_tzjVImA"
+        "googleMapsApiKey": "AIzaSyCcm7_Wd7uvmC9YnYLu2JHGWPt6z1MaL1E"
       },
       "infoPlist": {
         "NSLocationWhenInUseUsageDescription": "$(PRODUCT_NAME) uses your location for features like finding orders nearby and tracking customer orders!.",
@@ -49,7 +50,7 @@
       }
     },
     "android": {
-      "versionCode": 32,
+      "versionCode": 2,
       "googleServicesFile": "./google-services.json",
       "permissions": [
         "ACCESS_COARSE_LOCATION",
@@ -57,32 +58,31 @@
       ],
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyCzNP5qQql2a5y8lOoO-1yj1lj_tzjVImA"
+          "apiKey": "AIzaSyCcm7_Wd7uvmC9YnYLu2JHGWPt6z1MaL1E"
         }
       },
-      "package": "com.enatega.multirider"
+      "package": "com.cannabrands.multirider"
     },
     "extra": {
       "eas": {
-        "projectId": "9144a7fc-b205-464a-8fb6-64eb66fc8743"
+        "projectId": "f2e2ec16-766a-4c5d-a045-9df6f5ae5172"
       }
     },
     "runtimeVersion": {
       "policy": "sdkVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/9144a7fc-b205-464a-8fb6-64eb66fc8743"
-    },
-    "newArchEnabled": true
+      "url": "https://u.expo.dev/f2e2ec16-766a-4c5d-a045-9df6f5ae5172"
+    }
   },
   "hooks": {
     "postPublish": [
       {
         "file": "sentry-expo/upload-sourcemaps",
         "config": {
-          "organization": "ninjas-code",
-          "project": "enatega-multivendor-app",
-          "authToken": "744ed798e04a40a896b0269c25f945de0e166db8362e41969b64d5e07ca80e65"
+          "organization": "grasshopper-ze",
+          "project": "react-native",
+          "authToken": "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"
         }
       }
     ]

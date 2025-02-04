@@ -1,21 +1,21 @@
 {
   "expo": {
-    "name": "Enatega Multivendor Restaurant",
-    "slug": "enatega-multivendor-restaurant",
-    "version": "1.0.33",
+    "name": "DeliverXpress Restaurant",
+    "slug": "cannabrands-merchant",
+    "version": "1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "cover",
-      "backgroundColor": "#6FCF97"
+      "backgroundColor": "#F72C5B"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "multivendor.enatega.restaurant",
+      "bundleIdentifier": "multivendor.cannabrands.restaurant",
       "infoPlist": {
         "UIBackgroundModes": [
           "remote-notification"
@@ -23,8 +23,8 @@
       }
     },
     "android": {
-      "versionCode": 42,
-      "package": "multivendor.enatega.restaurant",
+      "versionCode": 1,
+      "package": "multivendor.cannabrands.restaurant",
       "googleServicesFile": "./google-services.json",
       "permissions": [
         "ACCESS_COARSE_LOCATION",
@@ -36,9 +36,9 @@
         {
           "file": "sentry-expo/upload-sourcemaps",
           "config": {
-            "organization": "ninjas-code",
-            "project": "enatega-multivendor-app",
-            "authToken": "744ed798e04a40a896b0269c25f945de0e166db8362e41969b64d5e07ca80e65"
+            "organization": "grasshopper-ze",
+            "project": "react-native",
+            "authToken": "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"
           }
         }
       ]
@@ -48,15 +48,14 @@
     },
     "extra": {
       "eas": {
-        "projectId": "6a94161f-f21b-4ad9-8a04-c95b54ef0116"
+        "projectId": "8548678e-6748-4ffc-943a-af238e4f7347"
       }
     },
-    "owner": "ninjas_code",
+    "owner": "cannabrands-project",
     "plugins": [
       "expo-localization",
       "expo-secure-store",
       "sentry-expo"
-    ],
-    "newArchEnabled": true
+    ]
   }
 }

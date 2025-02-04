@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "Enatega Multi",
-    "scheme": "enategamultivendor",
-    "version": "1.0.57",
-    "description": "Enatega is a starter kit food ordering app built in React Native using Expo for IOS and Android. It's made keeping good aesthetics in mind as well keeping the best coding practices in mind. Its fully customisable to easily help you in your next food delivery project. https://market.nativebase.io/view/react-native-food-delivery-backend-app",
-    "slug": "enategamultivendor",
-    "owner": "ninjas_code",
+    "name": "Cannabrands",
+    "scheme": "cannabrands",
+    "version": "1.0",
+    "description": "Grasshopper is a starter kit food ordering app built in React Native using Expo for IOS and Android. It's made keeping good aesthetics in mind as well keeping the best coding practices in mind. Its fully customisable to easily help you in your next food delivery project. https://market.nativebase.io/view/react-native-food-delivery-backend-app",
+    "slug": "cannabrands",
+    "owner": "cannabrands-project",
     "privacy": "public",
     "androidStatusBar": {
       "backgroundColor": "#000"
@@ -16,14 +16,14 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "cover",
-      "backgroundColor": "#90E36D"
+      "backgroundColor": "#F72C5B"
     },
     "assetBundlePatterns": ["**/*"],
     "userInterfaceStyle": "automatic",
     "ios": {
       "supportsTablet": true,
       "userInterfaceStyle": "automatic",
-      "bundleIdentifier": "com.enatega.multivendor",
+      "bundleIdentifier": "com.cannabrand.multivendorapp",
       "config": {
         "googleMapsApiKey": "AIzaSyCcm7_Wd7uvmC9YnYLu2JHGWPt6z1MaL1E"
       },
@@ -35,7 +35,7 @@
         "CFBundleURLTypes": [
           {
             "CFBundleURLSchemes": [
-              "com.googleusercontent.apps.967541328677-nf8h4ou7rhmq9fahs87p057rggo95eah"
+              "com.googleusercontent.apps.282690300793-espl7i96dr0lhqi5d30n0p5gbchv5081"
             ]
           }
         ]
@@ -46,11 +46,11 @@
       "color": "#90E36D",
       "icon": "./assets/not-icon.png",
       "androidMode": "default",
-      "androidCollapsedTitle": "Enatega Multivendor"
+      "androidCollapsedTitle": "Grasshopper Multivendor"
     },
     "android": {
-      "versionCode": 57,
-      "package": "com.enatega.multivendor",
+      "versionCode": 1,
+      "package": "com.cannabrand.multivendorapp",
       "googleServicesFile": "./google-services.json",
       "userInterfaceStyle": "automatic",
       "config": {
@@ -70,9 +70,9 @@
         {
           "file": "sentry-expo/upload-sourcemaps",
           "config": {
-            "organization": "ninjas-code",
-            "project": "enatega-multivendor-app",
-            "authToken": "744ed798e04a40a896b0269c25f945de0e166db8362e41969b64d5e07ca80e65"
+            "organization": "grasshopper-ze",
+            "project": "react-native",
+            "authToken": "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"
           }
         }
       ]
@@ -87,7 +87,7 @@
       [
         "expo-updates",
         {
-          "username": "ninjas_code"
+          "username": "cannabrands"
         }
       ],
       [
@@ -99,20 +99,20 @@
       [
         "expo-location",
         {
-          "locationAlwaysAndWhenInUsePermission": "Allow $Enatega Multivendor to use your location."
+          "locationAlwaysAndWhenInUsePermission": "Allow $Grasshopper Multivendor to use your location."
         }
       ]
     ],
     "extra": {
       "eas": {
-        "projectId": "331d4e5b-b12a-434a-92ec-d6d283dc0e46"
+        "projectId": "6068b77f-b3de-431b-9ffa-d98445e0740e"
       }
     },
     "runtimeVersion": {
       "policy": "sdkVersion"
     },
     "updates": {
-      "url": "https://u.expo.dev/331d4e5b-b12a-434a-92ec-d6d283dc0e46"
+      "url": "https://u.expo.dev/6068b77f-b3de-431b-9ffa-d98445e0740e"
     }
   }
 }

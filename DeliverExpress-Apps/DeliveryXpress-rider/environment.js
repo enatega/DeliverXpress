@@ -9,8 +9,8 @@ const getEnvVars = (env = Updates.releaseChannel) => {
 
   if (env === 'production' || env === 'staging') {
     return {
-      GRAPHQL_URL: 'https://enatega-multivendor.up.railway.app/graphql',
-      WS_GRAPHQL_URL: 'wss://enatega-multivendor.up.railway.app/graphql',
+      GRAPHQL_URL: 'https://deliverxpress-api.up.railway.app/graphql',
+      WS_GRAPHQL_URL: 'wss://deliverxpress-api.up.railway.app/graphql',
       SENTRY_DSN: configuration.riderAppSentryUrl,
       GOOGLE_MAPS_KEY: configuration.googleApiKey
     }
@@ -19,8 +19,8 @@ const getEnvVars = (env = Updates.releaseChannel) => {
 
     // GRAPHQL_URL: 'http://192.168.1.2:8001/graphql',
     // WS_GRAPHQL_URL: 'ws://192.168.1.2:8001/graphql',
-    GRAPHQL_URL: 'https://enatega-multivendor.up.railway.app/graphql',
-    WS_GRAPHQL_URL: 'wss://enatega-multivendor.up.railway.app/graphql',
+    GRAPHQL_URL: 'https://deliverxpress-api.up.railway.app/graphql',
+    WS_GRAPHQL_URL: 'wss://deliverxpress-api.up.railway.app/graphql',
     SENTRY_DSN: configuration.riderAppSentryUrl,
     GOOGLE_MAPS_KEY: configuration.googleApiKey
     // SENTRY_DSN:

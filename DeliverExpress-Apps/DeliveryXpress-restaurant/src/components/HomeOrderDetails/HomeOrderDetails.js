@@ -86,7 +86,7 @@ function HomeOrderDetails(props) {
               ? colors.white
               : activeBar === 1
                 ? colors.white
-                : colors.darkgreen
+                : colors.green
         }
       ]}
       onPress={() => {
