@@ -13,7 +13,7 @@ import { useLogin } from '../../ui/hooks'
 import { colors } from '../../utilities'
 import styles from './styles'
 import { Image, Button, Input, Icon } from 'react-native-elements'
-import {useTranslation} from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 
 const { height } = Dimensions.get('window')
 export default function Login() {
@@ -29,7 +29,7 @@ export default function Login() {
   } = useLogin()
 
   const [showPassword, setShowPassword] = useState(false)
-  const {t} = useTranslation()
+  const { t } = useTranslation()
   return (
     <KeyboardAvoidingView
       style={{ flex: 1, flexDirection: 'column', justifyContent: 'center' }}

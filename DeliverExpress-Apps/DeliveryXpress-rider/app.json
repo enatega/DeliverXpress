@@ -2,21 +2,9 @@
   "expo": {
     "name": "DeliverXpress Rider",
     "description": "DeliverXpress is a starter kit food ordering app built in React Native using Expo for IOS and Android. It's made keeping good aesthetics in mind as well keeping the best coding practices in mind. Its fully customisable to easily help you in your next food delivery project. https://market.nativebase.io/view/react-native-food-delivery-backend-app",
-    "version": "1.1",
+    "version": "1.1.3",
     "slug": "cannabrands-driver",
     "owner": "cannabrands-project",
-    "privacy": "public",
-    "plugins": [
-      [
-        "expo-updates",
-        {
-          "username": "cannabrands-project"
-        }
-      ],
-      "expo-font",
-      "expo-localization",
-      "sentry-expo"
-    ],
     "androidStatusBar": {
       "backgroundColor": "#000"
     },
@@ -50,7 +38,7 @@
       }
     },
     "android": {
-      "versionCode": 2,
+      "versionCode": 3,
       "googleServicesFile": "./google-services.json",
       "permissions": [
         "ACCESS_COARSE_LOCATION",
@@ -68,6 +56,17 @@
         "projectId": "f2e2ec16-766a-4c5d-a045-9df6f5ae5172"
       }
     },
+    "plugins": [
+      "expo-font",
+      "expo-localization",
+      "sentry-expo",
+      [
+        "expo-updates",
+        {
+          "username": "cannabrands-project"
+        }
+      ]
+    ],
     "runtimeVersion": {
       "policy": "sdkVersion"
     },
