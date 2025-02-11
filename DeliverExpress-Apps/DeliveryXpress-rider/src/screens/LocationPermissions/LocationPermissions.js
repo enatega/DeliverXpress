@@ -75,7 +75,7 @@ const LocationPermissions = ({ navigation }) => {
             askLocationPermission()
           }}>
           <TextDefault H4 bold center>
-            {'Allow Location'}
+            {'continue'}
           </TextDefault>
         </TouchableOpacity>
       </View>

@@ -198,5 +198,7 @@ contactCustomer: '联系客户',
 orderMarkedAs: '订单标记为 ',
 withdrawAmountError: '提款金额必须小于或等于钱包金额！',
 amountGreater: '金额必须大于',
-amountReq: '金额是必需的！'
+  amountReq: '金额是必需的！',
+  continue: '继续'
+
 }
