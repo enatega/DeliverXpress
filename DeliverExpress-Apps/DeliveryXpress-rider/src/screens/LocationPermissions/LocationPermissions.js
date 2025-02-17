@@ -64,7 +64,7 @@ const LocationPermissions = ({ navigation }) => {
         <View style={styles().descriptionEmpty}>
           <TextDefault H5 bolder center>
             {
-              'Enatega uses your location for features like finding orders nearby and tracking customer orders!'
+              'DeliverXpress uses your location for features like finding orders nearby and tracking customer orders!'
             }
           </TextDefault>
         </View>

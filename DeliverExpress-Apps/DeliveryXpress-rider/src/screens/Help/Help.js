@@ -23,7 +23,7 @@ const links = [
     url:
       'https://blog.geekyants.com/enatega-multivendor-foodpanda-clone-v1-0-0-e4b4f21ba1c1'
   },
-  { title: ('aboutUs'), url: 'https://ninjascode.com/pages/ourteam.html' }
+  { title: ('aboutUs'), url: 'https://deliverxpress.netlify.app/' }
 ]
 function Help() {
   const {t} = useTranslation()

@@ -16,7 +16,7 @@ const PROFILE = gql`
 const PRODUCT_URL = 'https://enatega.com/enatega-multi-vendor/'
 const PRIVACY_URL = 'https://enatega.com/privacy-policy/'
 
-const ABOUT_URL = 'https://ninjascode.com/'
+const ABOUT_URL = 'https://deliverxpress.netlify.app/'
 
 // constants
 /*const datas = [

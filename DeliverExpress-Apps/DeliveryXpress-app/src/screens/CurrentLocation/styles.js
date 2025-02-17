@@ -1,6 +1,9 @@
-import { StyleSheet } from 'react-native'
+import { StyleSheet, Dimensions } from 'react-native'
 import { alignment } from '../../utils/alignment'
 import { scale } from '../../utils/scaling'
+
+const { width } = Dimensions.get("window");
+const isTablet = width >= 768;
 
 const styles = (props = null) =>
   StyleSheet.create({
@@ -43,7 +46,7 @@ const styles = (props = null) =>
       height: scale(100)
     },
     welcomeHeading: {
-      fontSize: scale(30),
+      fontSize: isTablet ? scale(20) : scale(30),
       ...alignment.MTlarge
     },
     descriptionEmpty: {

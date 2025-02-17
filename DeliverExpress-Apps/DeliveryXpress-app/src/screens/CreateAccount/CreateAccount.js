@@ -1,5 +1,5 @@
 import React, { useLayoutEffect } from 'react'
-import { View, Image, TouchableOpacity, Dimensions } from 'react-native'
+import { View, Image, TouchableOpacity, Dimensions, ScrollView } from 'react-native'
 import styles from './styles'
 import FdGoogleBtn from '../../ui/FdSocialBtn/FdGoogleBtn/FdGoogleBtn'
 import FdEmailBtn from '../../ui/FdSocialBtn/FdEmailBtn/FdEmailBtn'
@@ -126,6 +126,7 @@ const CreateAccount = (props) => {
   }
 
   return (
+    <ScrollView>
     <View style={styles().container}>
       <View style={styles().image}>
         <Image
@@ -205,6 +206,7 @@ const CreateAccount = (props) => {
         </View>
       </View>
     </View>
+    </ScrollView>
   )
 }
 export default CreateAccount
