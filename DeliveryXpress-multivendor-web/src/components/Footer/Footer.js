@@ -8,11 +8,11 @@ import {
 } from "@mui/material";
 import React, { useEffect } from "react";
 import { Link as RouterLink, useLocation } from "react-router-dom";
-import TwitterIcon from "@mui/icons-material/Twitter";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+// import TwitterIcon from "@mui/icons-material/Twitter";
+// import GitHubIcon from "@mui/icons-material/GitHub";
+// import FacebookIcon from "@mui/icons-material/Facebook";
+// import InstagramIcon from "@mui/icons-material/Instagram";
+// import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { useTranslation } from "react-i18next";
 
 import useStyles from "./styles";
@@ -134,7 +134,7 @@ function Footer() {
           </Typography>
         </Box>
       </Grid>
-      <Grid
+      {/* <Grid
         item
         xs={12}
         md={3}
@@ -146,8 +146,8 @@ function Footer() {
           style={{ fontWeight: 700, fontSize: "1.4rem" }}
         >
           {t("followUs")}
-        </Typography>
-        <Box
+        </Typography> */}
+        {/* <Box
           style={{
             display: "flex",
             width: "100%",
@@ -229,9 +229,9 @@ function Footer() {
           >
             ninjascode
           </Typography>
-        </Box>
+        </Box> */}
 
-        <Divider
+        {/* <Divider
           style={{
             width: "70%",
             marginTop: 30,
@@ -249,7 +249,7 @@ function Footer() {
         >
           {t("footerEndText")}
         </Typography>
-      </Grid>
+      </Grid> */}
     </Grid>
   );
 }

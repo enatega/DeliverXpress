@@ -80,7 +80,7 @@ export default function AppComponent() {
             disableElevation
             onClick={() =>
               window.open(
-                "https://apps.apple.com/pk/app/enatega-multivendor/id1526488093",
+                "https://apps.apple.com/us/app/deliverxpress/id6740040059",
                 "_blank"
               )
             }
@@ -99,7 +99,7 @@ export default function AppComponent() {
             startIcon={<img src={AppStore} alt="appstore" />}
             onClick={() =>
               window.open(
-                "https://play.google.com/store/apps/details?id=com.enatega.multivendor",
+                "https://play.google.com/store/apps/details?id=com.cannabrand.multivendorapp",
                 "_blank"
               )
             }

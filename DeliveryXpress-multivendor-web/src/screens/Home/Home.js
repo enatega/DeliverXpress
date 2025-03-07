@@ -130,10 +130,10 @@ function Home() {
                         "• "+t('zonesFunctionality'),
                       ]}
                       android={
-                        "https://play.google.com/store/apps/details?id=com.enatega.multirider"
+                        "https://play.google.com/store/apps/details?id=com.cannabrand.multivendorapp"
                       }
                       ios={
-                        "https://apps.apple.com/pk/app/enatega-mulitvendor-rider/id1526674511"
+                        "https://apps.apple.com/us/app/deliverxpress/id6740040059"
                       }
                       isMobile={true}
                     />
@@ -153,10 +153,10 @@ function Home() {
                         "• "+t('realTimeOrder'),
                       ]}
                       android={
-                        "https://play.google.com/store/apps/details?id=multivendor.enatega.restaurant"
+                        "https://play.google.com/store/apps/details?id=multivendor.cannabrands.restaurant"
                       }
                       ios={
-                        "https://apps.apple.com/pk/app/enatega-multivendor-restaurant/id1526672537"
+                        "https://apps.apple.com/us/app/deliverxpress-restaurant/id6740040147"
                       }
                       isMobile={true}
                     />
@@ -177,10 +177,10 @@ function Home() {
                         "• "+t('previousOrder'),
                       ]}
                       android={
-                        "https://play.google.com/store/apps/details?id=com.enatega.multivendor"
+                        "https://play.google.com/store/apps/details?id=com.cannabrands.multirider"
                       }
                       ios={
-                        "https://apps.apple.com/pk/app/enatega-multivendor/id1526488093"
+                        "https://apps.apple.com/us/app/deliverxpress-rider/id6740040032"
                       }
                       isMobile={true}
                     />
@@ -197,7 +197,7 @@ function Home() {
                       "• "+t('zonesFunctionality'),
                     ]}
                     web={true}
-                    link={"https://multivendor-admin.enatega.com/"}
+                    link={"https://deliverxpress-admin.netlify.app/"}
                     isMobile={false}
                   />
                 </Grid>
@@ -212,7 +212,7 @@ function Home() {
                         "• "+t('builtOnCommunity'),
                       ]}
                       web={true}
-                      link={"https://enatega.com/"}
+                      link={"https://deliverxpress.netlify.app/"}
                       isMobile={false}
                     />
                   </Box>
