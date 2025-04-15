@@ -239,7 +239,7 @@ function Cuisine(props) {
                           value={item}
                           key={item+index}
                           >
-                          {item}
+                          {t(item)}
                         </MenuItem>
                       ))}
                 </Select>

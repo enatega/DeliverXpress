@@ -326,6 +326,8 @@ const en = {
     CostType: 'Cost Type',
     PerKM: 'Per KM',
     FixedCost: 'Fixed Cost',
+    TippingValuesMustBeUnique: 'All tipping values must be unique',
+    grocery: 'Grocery',
     
 
   }

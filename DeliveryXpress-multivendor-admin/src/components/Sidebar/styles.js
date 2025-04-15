@@ -1,7 +1,7 @@
 import { makeStyles } from '@mui/styles'
 
 const useStyles = makeStyles(theme => ({
-  rowDisplay: { display: 'flex', flexDirection: 'row' },
+  rowDisplay: { display: 'flex', flexDirection: 'row', height: "40px" },
   logo: {
     marginLeft: -10
   },
@@ -69,7 +69,9 @@ const useStyles = makeStyles(theme => ({
     padding: 10,
     backgroundColor: theme.palette.background.primary,
     borderRadius: 10,
-    marginRight: 7
+    marginRight: 7,
+    display: 'flex',
+    alignItems: 'center',
   },
   restText: {
     fontSize: 16,

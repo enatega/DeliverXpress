@@ -115,6 +115,7 @@ const ar = {
     LoadingDots: 'جار التحميل ...',
     ErrorDots: 'خطأ ...',
     NewAddon: 'إضافة جديدة',
+    Cuisines: 'المطابخ',
     EnategaMultivendor: 'DeliverXpress Multivendor',
     ResetPassword: 'إعادة تعيين كلمة المرور',
     EnategaDashboard: 'لوحة تحكم DeliverXpress',
@@ -170,6 +171,8 @@ const ar = {
     GENERAL: 'عام',
     MANAGEMENT: 'الإدارة',
     RESTAURANT: 'المطعم',
+    restaurant: 'المطعم',
+    grocery: 'البقالة',
     BackToAdmin: 'العودة إلى الإدارة',
     Search: 'بحث',
     TippingUpdated: 'تم تحديث البقشيش',
@@ -310,8 +313,11 @@ const ar = {
 
     "CostType": "نوع التكلفة",
     "PerKM": "لكل كيلومتر",
-    "FixedCost": "تكلفة ثابتة"
-
+    "FixedCost": "تكلفة ثابتة",
+    TippingValuesMustBeUnique: 'يجب أن تكون جميع قيم الإكرامية فريدة',
+    shopType: 'نوع المتجر',
+    AddCuisine: 'إضافة مطبخ',
+    EditCuisine: 'تعديل المطبخ',
   }
 }
 

@@ -122,6 +122,7 @@ const de = {
     LoadingDots: 'Laden ...',
     ErrorDots: 'Fehler ...',
     NewAddon: 'Neue Erweiterung',
+    Cuisines: 'Küchen',
     EnategaMultivendor: 'DeliverXpress Multivendor',
     ResetPassword: 'Passwort zurücksetzen',
     EnategaDashboard: 'DeliverXpress-Dashboard',
@@ -178,6 +179,7 @@ const de = {
     GENERAL: 'ALLGEMEIN',
     MANAGEMENT: 'MANAGEMENT',
     RESTAURANT: 'RESTAURANT',
+    restaurant: 'RESTAURANT',
     BackToAdmin: 'Zurück zum Admin',
     Search: 'Suche',
     TippingUpdated: 'Trinkgeld aktualisiert',
@@ -321,8 +323,12 @@ const de = {
 
     "CostType": "Kostenart",
     "PerKM": "Pro KM",
-    "FixedCost": "Feste Kosten"
-
+    "FixedCost": "Feste Kosten",
+    TippingValuesMustBeUnique: 'Alle Trinkgeldwerte müssen eindeutig sein',
+    shopType: 'Geschäftstyp',
+    grocery: 'Lebensmittelgeschäft',
+    AddCuisine: 'Küche hinzufügen',
+    EditCuisine: 'Küche bearbeiten',
   }
 }
 

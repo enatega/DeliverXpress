@@ -170,6 +170,8 @@ const zh = {
     GENERAL: '常规',
     MANAGEMENT: '管理',
     RESTAURANT: '餐厅',
+    restaurant: '餐厅',
+    grocery: '杂货店',
     BackToAdmin: '返回管理员',
     Search: '搜索',
     TippingUpdated: '小费已更新',
@@ -310,8 +312,12 @@ const zh = {
 
     "CostType": "费用类型",
     "PerKM": "每公里",
-    "FixedCost": "固定费用"
-
+    "FixedCost": "固定费用",
+    TippingValuesMustBeUnique: '所有小费值必须是唯一的',
+    Cuisines: '菜系',
+    shopType: '商店类型',
+    AddCuisine: '添加菜系',
+    EditCuisine: '编辑菜系',
   }
 }
 export default zh

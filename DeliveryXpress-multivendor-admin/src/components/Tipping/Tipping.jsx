@@ -62,6 +62,15 @@ function Tipping(props) {
     setTip2Error(tip2Errors)
     setTip3Error(tip3Errors)
 
+     // Check if values are unique
+  const tipValues = [Number(tip1), Number(tip2), Number(tip3)]
+  const uniqueValues = [...new Set(tipValues)]
+  
+  if (uniqueValues.length !== tipValues.length) {
+    mainErrorSetter(t('TippingValuesMustBeUnique'))
+    return false
+  }
+
     if (!(tip1Errors && tip2Errors && tip3Errors)) {
       mainErrorSetter(t('FieldsRequired'))
     }
