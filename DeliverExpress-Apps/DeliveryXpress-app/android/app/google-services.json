@@ -1,0 +1,72 @@
+{
+  "project_info": {
+    "project_number": "10686462916",
+    "project_id": "grasshopper-1bd20",
+    "storage_bucket": "grasshopper-1bd20.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10686462916:android:9f33d8431d35157c4f4291",
+        "android_client_info": {
+          "package_name": "com.cannabrand.multivendorapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcS-EXueViezqrhkZO0qQpVCpQL7qMcPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10686462916:android:684572984bd51f7b4f4291",
+        "android_client_info": {
+          "package_name": "com.cannabrands.multirider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcS-EXueViezqrhkZO0qQpVCpQL7qMcPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10686462916:android:18c9fee19a2bc52b4f4291",
+        "android_client_info": {
+          "package_name": "multivendor.cannabrands.restaurant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcS-EXueViezqrhkZO0qQpVCpQL7qMcPo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+
+
+
+
+

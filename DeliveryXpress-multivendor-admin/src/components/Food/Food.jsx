@@ -119,6 +119,7 @@ function Food(props) {
     setTitle('')
     setDescription('')
     setTimeout(onDismiss, 3000)
+    
   }
   const [mutate, { loading: mutateLoading }] = useMutation(mutation, {
     onError,
@@ -702,7 +703,7 @@ function Food(props) {
         onClose={() => {
           toggleModal()
         }}>
-        <AddonComponent updateAddonsList={updateAddonsList} />
+        <AddonComponent updateAddonsList={updateAddonsList} onClose={toggleModal}/>
       </Modal>
     </Box>
   )

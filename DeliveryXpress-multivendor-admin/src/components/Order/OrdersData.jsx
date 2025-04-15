@@ -178,7 +178,7 @@ const OrdersData = props => {
         onChangePage={handlePageChange}
         conditionalRowStyles={conditionalRowStyles}
         customStyles={customStyles}
-        selectableRows
+        // selectableRows
         paginationIconLastPage=""
         paginationIconFirstPage=""
       />

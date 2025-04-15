@@ -170,6 +170,8 @@ const km = {
     GENERAL: 'ទូទៅ',
     MANAGEMENT: 'គ្រប់គ្រង',
     RESTAURANT: 'ភោជនីយដ្ឋាន',
+    restaurant: 'ភោជនីយដ្ឋាន',
+    grocery: 'ហាងលក់រាយ',
     BackToAdmin: 'ត្រឡប់ទៅកាន់អនុគមន៏',
     Search: 'ស្វែងរក',
     TippingUpdated: 'ការធ្វើដំណើរការទាមទារត្រូវបានធ្វើអោយទាន់សម័យ',
@@ -311,8 +313,12 @@ const km = {
     "The value Should not be in the negative": "តម្លៃមិនគួរត្រូវជាលេខអវិជ្ជមាន",
     "CostType": "ប្រភេទថ្លៃ",
     "PerKM": "ក្នុងមួយគីឡូម៉ែត្រ",
-    "FixedCost": "ថ្លៃថេរ"
-
+    "FixedCost": "ថ្លៃថេរ",
+    TippingValuesMustBeUnique: 'តម្លៃទឹកប្រាក់បន្ថែមទាំងអស់ត្រូវតែមានលក្ខណៈតែមួយគត់',
+    Cuisines: 'ប្រភេទអាហារ',
+    shopType: 'ប្រភេទហាង',
+    AddCuisine: 'បន្ថែមប្រភេទអាហារ',
+    EditCuisine: 'កែប្រែប្រភេទអាហារ',
   }
 }
 

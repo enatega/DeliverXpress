@@ -177,6 +177,8 @@ const fr = {
     GENERAL: 'GÉNÉRAL',
     MANAGEMENT: 'GESTION',
     RESTAURANT: 'RESTAURANT',
+    restaurant: 'RESTAURANT',
+    grocery: 'ÉPICERIE',
     BackToAdmin: "Retour à l'administration",
     Search: 'Recherche',
     TippingUpdated: 'Pourboire mis à jour',
@@ -321,8 +323,12 @@ const fr = {
 
     "CostType": "Type de coût",
     "PerKM": "Par KM",
-    "FixedCost": "Coût fixe"
-
+    "FixedCost": "Coût fixe",
+    TippingValuesMustBeUnique: 'Toutes les valeurs de pourboire doivent être uniques',
+    Cuisines: 'Cuisines',
+    shopType: 'Type de boutique',
+    AddCuisine: 'Ajouter une cuisine',
+    EditCuisine: 'Modifier la cuisine',
   }
 }
 

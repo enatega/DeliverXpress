@@ -209,7 +209,7 @@ const Category = props => {
             sortFunction={customSort}
             defaultSortField="title"
             customStyles={customStyles}
-            selectableRows
+            // selectableRows
             paginationIconLastPage=""
             paginationIconFirstPage=""
           />
