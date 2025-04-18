@@ -239,7 +239,7 @@ function Addresses() {
         <View style={styles(currentTheme).containerButton}>
           <TouchableOpacity
             activeOpacity={0.5}
-            style={styles(currentTheme).addButton}
+            style={[styles(currentTheme).addButton,{marginBottom:scale(20)}]}
             onPress={() => navigation.navigate('SelectLocation', {
               prevScreen: 'Addresses'
             })}

@@ -75,6 +75,8 @@ const GET_COUPON = gql`
 `
 const { height: HEIGHT } = Dimensions.get('window')
 
+const MODALHEIGHT = Math.floor(scale(HEIGHT / 1.9))
+
 function Checkout(props) {
   const Analytics = analytics()
 
@@ -1308,7 +1310,7 @@ function Checkout(props) {
           modalStyle={[styles(currentTheme).modal]}
           overlayStyle={styles(currentTheme).overlay}
           handleStyle={styles(currentTheme).handle}
-          modalHeight={550}
+          modalHeight={MODALHEIGHT}
           handlePosition='inside'
           openAnimationConfig={{
             timing: { duration: 400 },

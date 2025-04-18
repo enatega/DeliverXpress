@@ -3,7 +3,7 @@ import { alignment } from '../../utils/alignment'
 import { scale } from '../../utils/scaling'
 const { height } = Dimensions.get('window')
 
-const BACKDROP_HEIGHT = Math.floor(scale(height / 5))
+const BACKDROP_HEIGHT = Math.floor(scale(height / 2.5))
 
 export const useStyles = (theme) => StyleSheet.create({
     iconContainer: {

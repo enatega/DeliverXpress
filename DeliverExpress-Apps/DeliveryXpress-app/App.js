@@ -84,6 +84,9 @@ export default function App() {
       // await permissionForPushNotificationsAsync()
       await getActiveLocation()
       BackHandler.addEventListener('hardwareBackPress', exitAlert)
+      
+       // Add delay here for splash screen 
+      await new Promise(resolve => setTimeout(resolve, 1000)) // 1 seconds extra splash time
 
       setAppIsReady(true)
     }
