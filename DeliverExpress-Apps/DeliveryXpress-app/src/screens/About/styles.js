@@ -134,7 +134,7 @@ const styles = (props = null) =>
     // },
     timingRow: {
       flexDirection: 'row',
-      justifyContent: 'space-evenly',
+      justifyContent: 'space-between',
       alignSelf: 'center',
       backgroundColor: '#F3F4F6',
       borderRadius: 10,

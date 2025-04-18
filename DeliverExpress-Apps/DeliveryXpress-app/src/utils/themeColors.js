@@ -116,7 +116,7 @@ export const theme = {
     CustomLoadingBG: '#000',
     white: '#FFF',
     themeBackground: '#000',
-    newheaderColor: '##F72C5B',
+    newheaderColor: '#F72C5B',
     menuBar: '#000',
     iconColor: '#FCFCFC',
     iconColorDark: '#FCFCFC',

@@ -229,8 +229,9 @@ function About(props) {
                 >
                   {t(v.day)}{' '}
                 </TextDefault>
+                <View style={{flexDirection: 'column'}}>
                 {v.times.length < 1 ? (
-                  <TextDefault key={index + 8} small bold center>
+                  <TextDefault key={index + 8} small bold center textColor={currentTheme.black}>
                     {t('ClosedAllDay')}
                   </TextDefault>
                 ) : (
@@ -246,6 +247,7 @@ function About(props) {
                     </TextDefault>
                   ))
                 )}
+                </View>
               </View>
             ))}
           </View>

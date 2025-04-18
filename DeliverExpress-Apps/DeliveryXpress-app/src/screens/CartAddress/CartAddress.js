@@ -184,7 +184,7 @@ function CartAddresses(props) {
                   onSelectAddress(address)
                 }}
               >
-                <View style={styles().width100}>
+                <View style={[styles().width100, {paddingVertical: scale(5)}]}>
                   <View style={[styles().titleAddress, styles().width100]}>
                     <View style={[styles().homeIcon]}>
                       <RadioButton

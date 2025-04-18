@@ -1,2 +1,6 @@
 .expo
 .DS_Store
+ios
+android
+node_modules
+package-lock.json
