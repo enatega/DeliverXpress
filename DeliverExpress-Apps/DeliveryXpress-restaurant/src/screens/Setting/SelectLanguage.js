@@ -74,7 +74,7 @@ export default function SelectLanguage() {
           <View style={styles.topContainer}>
             <View>
               <Image
-                source={require('../../assets/Header.gif')}
+                source={require('../../assets/header_gif.gif')}
                 PlaceholderContent={<ActivityIndicator />}
                 style={{ width: 150, height: 150 }}
               />

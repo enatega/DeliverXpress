@@ -10,26 +10,19 @@
       "resizeMode": "cover",
       "backgroundColor": "#F72C5B"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "multivendor.cannabrands.restaurant",
       "infoPlist": {
-        "UIBackgroundModes": [
-          "remote-notification"
-        ]
+        "UIBackgroundModes": ["remote-notification"]
       }
     },
     "android": {
       "versionCode": 1,
       "package": "multivendor.cannabrands.restaurant",
       "googleServicesFile": "./google-services.json",
-      "permissions": [
-        "ACCESS_COARSE_LOCATION",
-        "ACCESS_FINE_LOCATION"
-      ]
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
     },
 
     "web": {
@@ -41,10 +34,6 @@
       }
     },
     "owner": "cannabrands-project",
-    "plugins": [
-      "expo-localization",
-      "expo-secure-store",
-      "sentry-expo"
-    ]
+    "plugins": ["expo-localization", "expo-secure-store", "sentry-expo"]
   }
 }
