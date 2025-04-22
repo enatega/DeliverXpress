@@ -144,12 +144,6 @@ NOTE: Email provider has been only been tested for gmail accounts
 
 Find the link for the complete documentation of the DeliverXpress Multi Vendor Solution [here](https://enatega.com/multivendor-documentation/).
 
-## :tv: Demo Videos: <a id="heading-14"></a>
-
-|                                               Admin Dashboard Demo                                               |                                                 Mobile App Demo                                                  |
-| :--------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
-| <a href="https://www.youtube.com/watch?v=18d_POMa8B4"><img src="./assets/1111.webp" width="200" alt="Video"></a> | <a href="https://www.youtube.com/watch?v=ZOBW4kdCsD4"><img src="./assets/1111.webp" width="200" alt="Video"></a> |
-
 ## :iphone: Demos: <a id="heading-9"></a>
 
 |                                                                                                                                               Customer App                                                                                                                                                |                                                                                                                                                   Rider App                                                                                                                                                    |                                                                                                                                                       Restaurant App                                                                                                                                                        |                                                   Customer Web                                                   |                                                    Admin Dashboard                                                     |
