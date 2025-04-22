@@ -67,7 +67,6 @@ Our solution is open source but the backend and API are proprietary, and can be 
 - [:wrench: Setup](#heading-3)
 - [:gear: Prerequisites](#heading-4)
 - [:computer: Technologies](#heading-5)
-- [:camera: Screenshots](#heading-6)
 - [:triangular_ruler: High Level Architecture](#heading-7)
 - [:page_with_curl: Documentation](#heading-8)
 - [:movie_camera: Demo Videos](#heading-14)
@@ -169,28 +168,6 @@ NOTE: Email provider has been only been tested for gmail accounts
 |                                                 React Native                                                 |                                                       React Router                                                       |                                                GraphQL                                                |                                                ExpressJS                                                 |                                                   React Strap                                                    |                                                Amplitude                                                |
 | :----------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
 | <a href="https://reactnative.dev/"><img src="./assets/react-native.png" alt="DeliverXpress Logos" width="100"></a> | <a href="https://reactrouter.com/"><img src="./assets/react-router-svgrepo-com.png" alt="DeliverXpress Logos" width="100"></a> | <a href="https://graphql.org/"><img src="./assets/graphQl-1.png" alt="DeliverXpress Logos" width="100"></a> | <a href="https://expressjs.com/"><img src="./assets/express-js.png" alt="DeliverXpress Logos" width="100"></a> | <a href="https://reactstrap.github.io/"><img src="./assets/React-strap.png" alt="DeliverXpress Logos" width="100"></a> | <a href="https://amplitude.com/"><img src="./assets/amplitude.png" alt="DeliverXpress Logos" width="100"></a> |
-
-## :framed_picture: Screenshots: <a id="heading-6"></a>
-
-|          Rider App           |
-| :--------------------------: |
-| ![](./assets/rider-app.webp) |
-
-|               Restaurant APP               |
-| :----------------------------------------: |
-| ![](./assets/restuarant-app-1-scaled.webp) |
-
-|          Customer App           |
-| :-----------------------------: |
-| ![](./assets/Customer-app.webp) |
-
-|           Customer Web            |
-| :-------------------------------: |
-| ![](./assets/Web-app-scaled.webp) |
-
-|             Dashboard              |
-| :--------------------------------: |
-| ![](./assets/dasboard-scaled.webp) |
 
 ## :wrench: High Level Architecture: <a id="heading-7"></a>
 
