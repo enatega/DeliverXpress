@@ -13,7 +13,7 @@
 <div align="center">
 
   <a href="https://www.youtube.com/watch?v=00voqzkFpHU">
-    <img src="./assets/thumbnail.webp" alt="Demo video" style="border-radius: 6px; width: auto;">
+    <img src="./assets/mockup1.png" alt="Demo video" style="border-radius: 6px; width: auto;">
   </a>
 
 </div>
@@ -145,7 +145,7 @@ NOTE: Email provider has been only been tested for gmail accounts
 
 |               Restaurant APP               |
 | :----------------------------------------: |
-| ![](./assets/mockup3.png) |
+| ![](./assets/mockup2.png) |
 
 |          Customer App           |
 | :-----------------------------: |
