@@ -151,9 +151,6 @@ NOTE: Email provider has been only been tested for gmail accounts
 | :-----------------------------: |
 | ![](./assets/mockup1.png) |
 
-|           Customer Web            |
-| :-------------------------------: |
-| ![](./assets/Web-app-scaled.webp) |
 
 
 
