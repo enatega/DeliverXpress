@@ -141,15 +141,15 @@ NOTE: Email provider has been only been tested for gmail accounts
 
 |          Rider App           |
 | :--------------------------: |
-| ![](./assets/rider-app.webp) |
+| ![](./assets/mockup3.png) |
 
 |               Restaurant APP               |
 | :----------------------------------------: |
-| ![](./assets/restuarant-app-1-scaled.webp) |
+| ![](./assets/mockup3.png) |
 
 |          Customer App           |
 | :-----------------------------: |
-| ![](./assets/Customer-app.webp) |
+| ![](./assets/mockup1.png) |
 
 |           Customer Web            |
 | :-------------------------------: |
