@@ -2,7 +2,7 @@
   "expo": {
     "name": "DeliverXpress Restaurant",
     "slug": "cannabrands-merchant",
-    "version": "1.0",
+    "version": "1.1.5",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -10,21 +10,29 @@
       "resizeMode": "cover",
       "backgroundColor": "#F72C5B"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "multivendor.cannabrands.restaurant",
       "infoPlist": {
-        "UIBackgroundModes": ["remote-notification"]
+        "UIBackgroundModes": [
+          "remote-notification",
+          "remote-notification"
+        ],
+        "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
-      "versionCode": 1,
+      "versionCode": 5,
       "package": "multivendor.cannabrands.restaurant",
       "googleServicesFile": "./google-services.json",
-      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ]
     },
-
     "web": {
       "favicon": "./assets/favicon.png"
     },
@@ -34,6 +42,10 @@
       }
     },
     "owner": "cannabrands-project",
-    "plugins": ["expo-localization", "expo-secure-store", "sentry-expo"]
+    "plugins": [
+      "expo-localization",
+      "expo-secure-store",
+      "sentry-expo"
+    ]
   }
 }
