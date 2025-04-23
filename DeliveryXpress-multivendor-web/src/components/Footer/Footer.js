@@ -24,9 +24,9 @@ function Footer() {
   const small = useMediaQuery(theme.breakpoints.down("md"));
   const location = useLocation();
 
-  const redirectHandler = (link) => {
-    window.open(link, "_blank");
-  };
+  // const redirectHandler = (link) => {
+  //   window.open(link, "_blank");
+  // };
 
   useEffect(() => {
     window.scrollTo(0, 0);
